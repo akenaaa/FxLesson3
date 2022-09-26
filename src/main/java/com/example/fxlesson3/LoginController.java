@@ -40,7 +40,7 @@ public class LoginController {
     }
 
     public void loginButtonClicked(ActionEvent event){
-        if (emailTextField.getText().equals("dina@jihc.kz") && passwordTextField.getText().equals("123"))
+        if (emailTextField.getText().equals("aru@jihc.kz") && passwordTextField.getText().equals("2022"))
             try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("welcomepage.fxml"));
